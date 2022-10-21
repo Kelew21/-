@@ -1,0 +1,343 @@
+.main {
+  width: 980px;
+  height: 455px;
+  margin-left: 220px;
+  margin-top: 10px;
+}
+.focus {
+  float: left;
+  width: 721px;
+  height: 455px;
+}
+.newsflash {
+  float: right;
+  width: 250px;
+  height: 455px;
+}
+.news {
+  height: 165px;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+}
+.news-hd {
+  height: 33px;
+  border-bottom: 1px dotted #e4e4e4;
+  line-height: 33px;
+  padding: 0 15px;
+}
+.news-hd h5 {
+  float: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+.news-hd .more {
+  float: right;
+}
+.news-hd .more::after {
+  content: "\e920";
+  font-family: "icomoon";
+}
+.news-bd {
+  padding: 5px 15px 0;
+}
+.news-bd ul li {
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.lifeservice {
+  height: 209px;
+  border: 1px solid #e4e4e4;
+  border-top: 0;
+  overflow: hidden;
+}
+.lifeservice ul {
+  width: 252px;
+}
+.lifeservice ul li {
+  position: relative;
+  float: left;
+  width: 63px;
+  height: 71px;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  text-align: center;
+}
+.lifeservice ul li i {
+  display: inline-block;
+  width: 24px;
+  height: 28px;
+  margin-top: 12px;
+}
+.service_ico_phonebill {
+  background: url(../images/icons.png) no-repeat -17px -15px;
+}
+.service_ico_plane {
+  background: url(../images/icons.png) no-repeat -79px -15px;
+}
+.service_ico_movie {
+  background: url(../images/icons.png) no-repeat -142px -15px;
+}
+.service_ico_game {
+  background: url(../images/icons.png) no-repeat -207px -12px;
+}
+.service_ico_lottery {
+  background: url(../images/icons.png) no-repeat -17px -88px;
+}
+.service_ico_oil {
+  background: url(../images/icons.png) no-repeat -80px -88px;
+}
+.service_ico_hotel {
+  background: url(../images/icons.png) no-repeat -143px -88px;
+}
+
+.service_ico_train {
+  background: url(../images/icons.png) no-repeat -207px -88px;
+}
+.service_ico_contribution {
+  background: url(../images/icons.png) no-repeat -17px -158px;
+}
+.service_ico_save {
+  background: url(../images/icons.png) no-repeat -80px -158px;
+}
+.service_ico_card {
+  background: url(../images/icons.png) no-repeat -143px -154px;
+}
+.service_ico_note {
+  background: url(../images/icons.png) no-repeat -207px -158px;
+}
+.hot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 8px solid #589d5a;
+  border-right: 7px solid #589d5a;
+  border-top: 13px solid #589d5a;
+  border-bottom: 3px solid transparent;
+}
+.hot-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  font-size: 14px;
+  color: #fff;
+}
+.bargain {
+  margin-top: 6px;
+}
+
+/* 推荐模块 */
+.recom {
+  height: 163px;
+  background-color: #ebebeb;
+  margin-top: 12px;
+}
+.recom_hd {
+  float: left;
+  width: 205px;
+  height: 100%;
+  background-color: #5c5251;
+  text-align: center;
+  padding-top: 31px;
+}
+.recom_bd {
+  float: left;
+  height: 100%;
+}
+.recom_bd ul li {
+  position: relative;
+  float: left;
+}
+.recom_bd ul li img {
+  width: 248px;
+  height: 163px;
+}
+.recom_bd ul li:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 1px;
+  height: 143px;
+  background-color: #ddd;
+}
+/* 猜你喜欢模块 */
+.guelike-hd {
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+}
+.guelike-hd h5 {
+  float: left;
+  font-size: 18px;
+}
+
+.guelike-hd i {
+  float: right;
+  font-size: 12px;
+}
+.guelike-hd i::after {
+  content: "\ea2e";
+  font-family: "icomoon";
+  margin-right: 20px;
+  margin-left: 9px;
+}
+.guelike-bd {
+  height: 230px;
+  border: 1px solid #ededed;
+  padding-top: 3px;
+}
+
+.guelike-bd ul li {
+  float: left;
+  width: 199px;
+  text-align: center;
+}
+.guelike-img {
+  margin-top: 10px;
+  height: 134px;
+  line-height: 134px;
+}
+.guelike-info {
+  position: relative;
+  margin-top: 15px;
+  text-align: left;
+  padding-left: 38px;
+}
+.guelike-info p {
+  font-size: 12px;
+}
+.guelike-info h2 {
+  font-size: 18px;
+  color: #df3033;
+}
+.guelike-info h2 span {
+  font-size: 14px;
+}
+.guelike-bd ul li:nth-child(-n + 5) .guelike-info::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 52px;
+  background: #ededed;
+}
+/* 楼层区域 */
+
+.box_hd {
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+  float: left;
+  font-size: 18px;
+  color: #c81623;
+  font-weight: 400;
+}
+.tab-list {
+  float: right;
+}
+.tab-list ul li {
+  float: left;
+  line-height: 30px;
+}
+.tab-list ul li a {
+  padding: 0 13px;
+}
+.floor .w {
+  margin-top: 30px;
+}
+.box_bd {
+  height: 361px;
+}
+
+.tab_list_item > div {
+  float: left;
+  height: 361px;
+}
+.tab_list_item_pic {
+  margin-top: 29px;
+}
+.col_210 {
+  width: 210px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.col_210 ul {
+  padding-left: 12px;
+}
+.col_210 ul li {
+  float: left;
+  width: 85px;
+  height: 34px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 33px;
+  margin-right: 10px;
+}
+.col_329 {
+  width: 329px;
+
+  text-align: center;
+  line-height: 361px;
+}
+.col_221 {
+  width: 221px;
+  border-right: 1px solid #ccc;
+}
+.col_219 {
+  width: 219px;
+}
+.bb {
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+.box_footer {
+  margin-top: 24px;
+}
+
+/* 疯狂抢购 */
+.enthushop-hd {
+  height: 40px;
+  line-height: 40px;
+}
+.enthushop-hd h5 {
+  font-size: 18px;
+}
+.enthushop-bd {
+  height: 280px;
+  background-color: pink;
+}
+.enthushop-bd ul li {
+  float: left;
+}
+.enthushop-bd ul li:nth-child(1) {
+  width: 242px;
+  height: 280px;
+  background-color: #f9f9f9;
+}
+
+.enthushop-bd ul li:nth-child(2) {
+  width: 227px;
+  height: 280px;
+  background-color: #eee;
+}
+.enthushop-bd ul li:nth-child(3) {
+  width: 211px;
+  height: 280px;
+  background-color: #f9f9f9;
+}
+.enthushop-bd ul li:nth-child(4) {
+  width: 227px;
+  height: 280px;
+  background-color: #eee;
+}
